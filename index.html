@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <section class="card">
+        <div class="card__content">
+            <div class="card__avatar">
+                <img src="https://avatars.mds.yandex.net/get-pdb/1863907/66fc05cc-e47d-4daf-ad9e-983def81b0b8/s1200">
+            </div>
+            <h1 class="card__name">Artem Zoloto</h1>
+            <span class="card__desc">27 y.o. Front-end developer from Moscow, Russia</span>
+            <a href="#name"><button class="card__button">Связаться</button></a>
+        </div>
+    </section>
+    <section class="experience">
+        <div class="experience__content">
+            <h2 class="experience__title">Опыт работы</h2>
+            <div class="experience__company">
+                <input class="experience__input" type="checkbox" name="company" id="uchi">
+                <label class="experience__label" for="uchi">Uchi.ru</label>
+                <div class="experience__desc">
+                    <p>From: May 2017 to: December 2018</p>
+                    <p>Stack: Javascript, jQuery, SASS</p>
+                </div>
+            </div>
+            <div class="experience__company">
+                <input class="experience__input" type="checkbox" name="company" id="yandex">
+                <label class="experience__label" for="yandex">Yandex.ru</label>
+                <div class="experience__desc">
+                        <p>From: December 2018 to: March 2019</p>
+                        <p>Stack: Flow, React, Redux, Stylus, Webpack, TeamCity CI</p>
+                </div>
+            </div>
+            <div class="experience__company">
+                <input class="experience__input" type="checkbox" name="company" id="jet">
+                <label class="experience__label" for="jet">Jet.su</label>
+                <div class="experience__desc">
+                        <p>From: June 2019</p>
+                        <p>Stack: Typescript, React, LESS, AntDesign, Webpack, Jenkins CI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="portfolio__content">
+            <h2 class="portfolio__title">Мои работы</h2>
+            <div class="slider">
+                <input class="slider__input" type="radio" id="btn-1" name="toggle" checked>
+                <input class="slider__input" type="radio" id="btn-2" name="toggle">
+                <input class="slider__input" type="radio" id="btn-3" name="toggle">
+                <input class="slider__input" type="radio" id="btn-4" name="toggle">
+                <div class="slider__inner">
+                    <div class="slider__slides">
+                        <div class="slider__slide">
+                                <p class="slider__title">Яндекс.Дзен</p>
+                                <a  href="https://zen.yandex.ru" target="_blank" class="slider__site">zen.yandex.ru</a>
+                                <img class="slider__img"
+                                src="images/zen1.jpg">
+                                <p class="slider__desc">Рекомендательная лента контента и платформа для блогеров. Работает в мобильных приложениях на Android и iOS, с главной страницы Яндекса и встроен в Яндекс.Браузер.«Яндекс.Дзен» формирует ленту публикаций, автоматически подстраиваясь под интересы пользователя.</p>
+                        </div>
+                        <div class="slider__slide">
+                                <p class="slider__title">Яндекс.Дзен</p>
+                                <a  href="https://zen.yandex.ru" target="_blank" class="slider__site">zen.yandex.ru</a>
+                        <img class="slider__img"
+                            src="images/zen2.jpg">
+                            <p class="slider__desc">Подбор публикаций осуществляется на основе анализа истории посещённых страниц, указанных пользователем предпочтений, местоположения, времени суток и других факторов.</p>
+                        </div>
+                        <div class="slider__slide">
+                                <p class="slider__title">Учи.ру</p>
+                                <a  href="https://uchi.ru" target="_blank" class="slider__site">uchi.ru</a>
+                        <img class="slider__img"
+                            src="images/uchi1.jpg">
+                            <p class="slider__desc">Российская онлайн-платформа, где учащиеся из всех регионов России изучают школьные предметы в интерактивной форме. Разработаны профессиональными методистами и специалистами по детскому интерфейсу.</p>
+                        </div>
+                        <div class="slider__slide">
+                                <p class="slider__title">Учи.ру</p>
+                                <a  href="https://uchi.ru" target="_blank" class="slider__site">uchi.ru</a>
+                        <img class="slider__img"
+                            src="images/uchi2.png">
+                            <p class="slider__desc">Платформа Учи.ру учитывает скорость и правильность выполнения заданий, количество ошибок и поведение ученика. Таким образом, для каждого ребенка система автоматически подбирает персональные задания, их последовательность и уровень сложности.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__controls">
+                    <label class="slider__label" for="btn-1"></label>
+                    <label class="slider__label" for="btn-2"></label>
+                    <label class="slider__label" for="btn-3"></label>
+                    <label class="slider__label" for="btn-4"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact__content">
+            <h2 class="contact__title"><a name="name"></a>Контактная информация</h2>
+            <div class="contact__list">
+                <a href="https://wa.me/79266294003" target="_blank" class="fa contact__whatsapp">&#xf232</a>
+                <a href="https://instagram.com/misusimusasi" target="_blank"  class="fa contact__instagram">&#xf16d</a>
+                <a href="tg://resolve?domain=&lt;misusimusasi&gt;" target="_blank" class="fa contact__telegram">&#xf2c6</a>
+            </div>
+            <div class="contact__desc">
+                Я открыт для новых проектов. Вы можете прислать мне для оценки примерное
+                техническое задание или просто описание проекта своими словами.
+            </div>
+            <form action="https://alt.jotfor.ms/submit.php" method="POST"
+                enctype="multipart/form-data" class="contact__form" target="_blank">
+                <input type="hidden" name="formID" value="91981925640869" />
+                <div class="contact__inputs">
+                    <input type="text" name="q7_name" required class="contact__name" placeholder="Как вас зовут?">
+                    <input type="email" name="q3_email" required class="contact__mail" placeholder="Почтовый ящик">
+                </div>
+                <textarea name="q5_body" cols="30" rows="10" required class="contact__message"
+                    placeholder="Сообщение"></textarea>
+                <label id="file-label" for="file">Прикрепить ТЗ</label>
+                <input id="file" type="file" name="q8_input8[]" class="contact__file">
+                <button type="submit" class="contact__submit">Отправить</button>
+            </form>
+
+        </div>
+    </section>
+</body>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap&subset=cyrillic-ext" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</html>
